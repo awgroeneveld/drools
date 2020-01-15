@@ -11,7 +11,7 @@
 
   <groupId>org.kie</groupId>
   <artifactId>kie-ci</artifactId>
-
+  <version>7.31.1.MavDep</version>
   <name>KIE :: CI</name>
 
   <properties>
@@ -226,4 +226,10 @@
     </plugins>
   </build>
 
+  <distributionManagement>
+    <repository>
+      <id>VX_IT4Dogs_Feed</id>
+      <url>https://pkgs.dev.azure.com/vxfactory/_packaging/VX_IT4Dogs_Feed/maven/v1</url>
+    </repository>
+  </distributionManagement>
 </project>
